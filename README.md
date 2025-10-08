@@ -1,6 +1,6 @@
 # alpha-diversity
 ### 1. Install.packages ####
-''''
+````
 library(phyloseq)
 library(dplyr)
 library(ggplot2)
@@ -10,7 +10,7 @@ library(Biostrings)
 
 setwd("D:/Marine_Iguanas_Project/MARINE_IGUANAS/SECOND PAPER 2025/rbcL")
 list.files()
-''''
+````
 ### convert csv with sequences into fasta if not done already
 library(tidyverse)
 library(readr)
